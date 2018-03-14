@@ -1,0 +1,7 @@
+.btn-area{
+  background: #ccc;
+  color: white;
+  text-align: center;
+  border: 1px solid #333;
+  height: 30px;
+}

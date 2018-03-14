@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index",
+    "pages/swarper/swarper",
+    "pages/view/view",
+    "pages/tab/tab",
+    "pages/scroll/scroll",
+    "pages/movable/movable",
+    "pages/cover/cover",
+    "pages/form/form",
+    "pages/picker/picker"
+  ],
+  "window": {
+    "navigationBarTitleText": "小程序"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "导航"
+      },
+      {
+        "pagePath": "pages/logs/index",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
